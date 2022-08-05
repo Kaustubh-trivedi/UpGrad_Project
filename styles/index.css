@@ -3,10 +3,22 @@ img{
     width:150px;
 }
 .cities{
-    height:300px;
-    width:300px;
+    height:150px;
+    width:150px;
 }
 .socialmedia{
     height:20px;
     width:22px;
+}
+body{
+    height:100vh;
+    width:100vw;
+}
+div.container{
+    height:100vh;
+    width:100vw;
+}
+#logo{
+    height:60px;
+    width:60px;
 }

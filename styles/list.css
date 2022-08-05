@@ -7,10 +7,22 @@ img{
     width:22px;
 }
 .hotel{
-    height:100vh;
-    width:75vw;
+    height:200px;
+    width:250px;
 }
 .map{
     height:75vh;
     width:75vw;
+}
+body{
+    height:100vh;
+    width:100vw;
+}
+div.container{
+    height:100vh;
+    width:100vw;
+}
+#logo{
+    height:60px;
+    width:60px;
 }

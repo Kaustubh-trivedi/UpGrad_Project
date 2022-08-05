@@ -7,10 +7,11 @@
     <title>List</title>
     <link rel="stylesheet" href="styles/list.css">
 <body>
+    <div class="container">
     <div>
     <header>
         <div>
-            <a href="index.html"><img src="assests/images/logo.png" alt="logo"></a>
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" id="logo"></a>
             <span>
                 <a href="login.html">Login</a>
             </span>
@@ -18,9 +19,10 @@
     </header>
     <div>
         <ul>
-            <li><a href="#">List View</a></li>
-            <li><a href="#">Map View</a></li>
+            <li><a href="#list-view">List View</a></li>
+            <li><a href="#map-view">Map View</a></li>
         </ul>
+        <div id="list-view">
     <a href="detail.html"><div>
             <img class="hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
         </div>
@@ -47,26 +49,27 @@
             <p><u>4.0 Star</u></p>
             <p><u>New Delhi</u></p>
         </div>
-
-        <div>
+    </div>
+    <div id="map-view">
+        <div >
             <img class="map" src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="">
         </div>
         <div>
             <p>MAP VIEW</p>
         </div>
-
     </div>
+    <div>
     <footer>
-        <div>
-            <p><a href="contact.html">Contact Us</a></p>
-            <p>
-             <a href="https://www.facebook.com" target="_blank"><img class="socialmedia" src="assests/images/facebook.png" alt="facebook"></a>
-             <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="assests/images/instagram.png" alt="instagram"></a>
-             <a href="https://twitter.com" target="_blank"><img class="socialmedia" src="assests/images/twitter.png" alt="twitter"></a>
-            </p>
-            <p>© 2020 ROOM SEARCH PVT LTD</p>
-         </div>
+        <span><a href="contact.html">Contact Us</a></span><br>
+        <span>
+         <a href="https://www.facebook.com" target="_blank"><img class="socialmedia" src="assests/images/facebook.png" alt="facebook"></a>
+         <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="assests/images/instagram.png" alt="instagram"></a>
+         <a href="https://twitter.com" target="_blank"><img class="socialmedia" src="assests/images/twitter.png" alt="twitter"></a>
+        </span><br>
+        <span>© 2020 ROOM SEARCH PVT LTD</span>
+     
     </footer>
     </div>
+</div>
 </body>
 </html>
