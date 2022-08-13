@@ -13,6 +13,8 @@ img{
 body{
     height:100vh;
     width:100vw;
+    margin: 0;
+    background-color: #e0e0e0;
 }
 div.container{
     height:100vh;
@@ -21,4 +23,25 @@ div.container{
 #logo{
     height:60px;
     width:60px;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+#hoteldetail{
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    margin: 2% auto 2% auto;
+}
+#customerdetail{
+    margin: 2%;
+}
+#tarrif{
+    margin:2% ;
+    border: 1px solid black;
+    padding: 1% 2% 1% 2%;
+    border-radius: 5px;
 }
