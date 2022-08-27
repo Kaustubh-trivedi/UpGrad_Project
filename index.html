@@ -6,44 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+     
 </head>
 <body>
-    <div class="container">
-    <div>
+<div class="container">
     <header>
-        <div>
-            <img src="assests/images/logo.png" alt="logo" id="logo">
-            <span>
-                <a href="login.html">Login</a>
-            </span>
-        </div>
+            <div>
+                <img src="assests/images/logo.png" alt="logo" id="logo">
+            </div>    
+            <div id="login">
+                <a href="login.html" class="normallink">Login</a>
+            </div>  
     </header>
-    <div>
-        <div id="searchbox"><input type="text" name="city" 
-        id="city" placeholder="City"></div><br>
-<div>
-    <div id="cityimg">
-        <a href="list.html"><img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt=""></a>
-        <img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="">
-        <img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="">
-        <img class="cities" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="">
+
+    <div class="bgcontainer">
+        <div id="backgroundimg">
+            <div id="searchbox">
+                <form action=""><input type="text" name="city" id="city_inputtext" placeholder="City">
+                </form>
+            </div>   
+        </div>
     </div>
-</div>
-        <span><a href="#">View more >>></a></span>
-    
-    </div>
-    <footer>
-    
-           <span><a href="contact.html">Contact Us</a></span><br>
-           <span>
-            <a href="https://www.facebook.com" target="_blank"><img class="socialmedia" src="assests/images/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="assests/images/instagram.png" alt="instagram"></a>
-            <a href="https://twitter.com" target="_blank"><img class="socialmedia" src="assests/images/twitter.png" alt="twitter"></a>
-           </span><br>
-           <span>© 2020 ROOM SEARCH PVT LTD</span>
-        
-    </footer>
-    </div>
+
+        <div id="cityimg">
+            <div class="citiesdiv"><a href="list.html"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="" class="cityimg"></a></div>
+            <div class="citiesdiv"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="" class="cityimg"></div>
+            <div class="citiesdiv"><img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="" class="cityimg"></div>
+            <div class="citiesdiv"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="" class="cityimg"></div>
+        </div>
+  
+
+        <a href="#" class="normallink" id="view_more">View more >>></a>
+
+        <footer>   
+           <div style="margin-left:2%;"><a href="contact.html" class="normallink">Contact Us</a></div>
+           <div id="pvtltd">© 2020 ROOM SEARCH PVT LTD</div>
+                <div id="social">
+                    <a href="https://www.facebook.com" target="_blank"><img class="socialmedia" src="assests/images/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="assests/images/instagram.png" alt="instagram"></a>
+                    <a href="https://twitter.com" target="_blank"><img class="socialmedia" src="assests/images/twitter.png" alt="twitter"></a>
+                </div>
+            
+        </footer>
 </div>
 </body>
 </html>

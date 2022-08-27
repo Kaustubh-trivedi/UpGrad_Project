@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
     <link rel="stylesheet" href="styles/detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 <body>
     <div class="container">
-    <div>
-    <header>
-        <div>
-            <a href="index.html"><img src="assests/images/logo.png" alt="logo"id="logo"></a>
-            <span>
-                <a href="login.html">Login</a>
-            </span>
-        </div>
-    </header>
-    <div>
+    
+        <header>
+            <div>
+                <a href="index.html"> <img src="assests/images/logo.png" alt="logo" id="logo"> </a>
+            </div>    
+            <div id="login">
+                <a href="login.html" class="normallink">Login</a>
+            </div>  
+        </header>
+
+    <div class="content">
         <img class="hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" >
         
         <form action="payment.html" method="get">
@@ -34,31 +36,33 @@
             <button type="submit">Book Now</button>
         </form>
         <div id="details">
-        <h2>Radisson Blu Hotel</h2>
-        <p>RATING</p>
-        <p>5 Star</p>
-        <p>AMENITIES</p>
-        <ul>
-            <li>Room service</li>
-            <li>Restaurant</li>
-            <li>Business center</li>
-            <li>Fitness center</li>
-            <li>Pool</li>
-        </ul>
-        
-        <h5>DESCRIPTION</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur, maxime iusto unde corrupti facilis fugit odio architecto repellat! Neque temporibus tenetur autem odio veritatis repellendus ut veniam quae fugit, reprehenderit perspiciatis?</p>
-    </div>
-</div>
-    <footer>
-        <span><a href="contact.html">Contact Us</a></span><br>
-        <span>
-         <a href="https://www.facebook.com" target="_blank"><img class="socialmedia" src="assests/images/facebook.png" alt="facebook"></a>
-         <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="assests/images/instagram.png" alt="instagram"></a>
-         <a href="https://twitter.com" target="_blank"><img class="socialmedia" src="assests/images/twitter.png" alt="twitter"></a>
-        </span><br>
-        <span>© 2020 ROOM SEARCH PVT LTD</span>
-    </footer>
+            <h2>Radisson Blu Hotel</h2>
+            <p>RATING</p>
+            <p>5 Star</p>
+            <p>AMENITIES</p>
+            <ul>
+                <li>Room service</li>
+                <li>Restaurant</li>
+                <li>Business center</li>
+                <li>Fitness center</li>
+                <li>Pool</li>
+            </ul>
+            <div style=" display: block; padding-bottom: 5%;">
+                <h5>DESCRIPTION</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur, maxime iusto unde corrupti facilis fugit odio architecto repellat! Neque temporibus tenetur autem odio veritatis repellendus ut veniam quae fugit, reprehenderit perspiciatis?</p>
+            </div>
+        </div>
+    </div>  
+    <div>
+        <footer>   
+            <div style="margin-left:2%;"><a href="contact.html" class="normallink">Contact Us</a></div>
+            <div id="pvtltd">© 2020 ROOM SEARCH PVT LTD</div>
+            <div id="social">
+                <a href="https://www.facebook.com" target="_blank"><img class="socialmedia" src="assests/images/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="assests/images/instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="socialmedia" src="assests/images/twitter.png" alt="twitter"></a>
+            </div>       
+        </footer>
     </div>
 </body>
 </html>

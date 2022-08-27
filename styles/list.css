@@ -15,27 +15,82 @@ img{
     width:75vw;
 }
 body{
-    height:100vh;
-    width:100vw;
-    margin:0px;
     background-color: #e0e0e0;
-}
-div.container{
-    height:100vh;
+    margin: 0px;
+    font-family:  'Ubuntu', sans-serif;
+    overflow: auto;
     width:100vw;
 }
+/* div.container{
+    height:100vh;
+    width:100vw;
+} */
 #logo{
     height:60px;
     width:60px;
 }
+#login{
+    margin-right:2%;
+}
+.normallink{
+    text-decoration: none;
+    color:black;
+}
 header{
+    /* margin-top: 0%; */
     background-color: rosybrown;
+    position: fixed;
+    width:100%;
+    z-index:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top:0;
+}
+li.list-views{
+    display:inline-block;
+    margin:1% 1% 0 1%;
+}
+.view-link{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.hotellist{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
 }
 footer{
     background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7%;
+    bottom: 0;
+    left:0;
+    box-sizing: border-box;
 }
+div#social{
+    margin-right:2%;
+    /* margin:0.5%; */
+}
+#pvtltd{
+    font-size: 10px;
+    transform: translate(0, 100%);
+}
+
+
 div.htl{
-    margin:2%;
+    margin:1% 5% 4% 5%;
     width:40%;
     background-color: rgb(132,136,139);
+}
+.no-underline{
+    text-decoration: none;
+    color:black;
 }
