@@ -11,7 +11,7 @@
     <div class="container">
     
         <header>
-            <div>
+            <div id="logo-div">
                 <a href="index.html"> <img src="assests/images/logo.png" alt="logo" id="logo"> </a>
             </div>    
             <div id="login">
@@ -20,26 +20,50 @@
         </header>
 
     <div class="content">
-        <img class="hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" >
-        
-        <form action="payment.html" method="get">
-            <label for="adults">Adults:</label>
-            <input type="number" min="1" name="adults" id="adults"><br>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required><br>
-            <label for="fromdate">From Date:</label>
-            <input type="date" name="fromdate" id="fromdate" required><br>
-            <label for="todate">To Date:</label>
-            <input type="date" name="todate" id="todate" required><br>
-            <label for="total">Total:</label>
-            <input readonly="readonly" name="total" id="total"><br>
-            <button type="submit">Book Now</button>
-        </form>
+        <div id="box" >
+            <div id="hotel-img">
+                <img class="hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" >
+            </div>
+
+        <div id="booking-form">
+
+            <form action="payment.html" method="get" autocomplete="off" >
+
+            <div class="outer-div">
+                <label for="adults" class="form-label">Adults:</label>
+                    <input type="number" min="1" name="adults" id="adults" class="inner-input"><br>
+                </div>
+
+                <div class="outer-div">    
+                <label for="name" class="form-label">Name:</label>
+                    <input type="text" name="name" id="name" required class="inner-input"><br>
+                </div>
+
+                <div class="outer-div">    
+                <label for="fromdate" class="form-label">From Date:</label>
+                    <input type="date" name="fromdate" id="fromdate" required class="inner-input"><br>
+                </div>
+
+                <div class="outer-div">    
+                <label for="todate" class="form-label">To Date:</label>
+                    <input type="date" name="todate" id="todate" required class="inner-input"><br>
+                </div>
+
+                <div class="outer-div">    
+                <label for="total" class="form-label">Total:</label>
+                    <input readonly="readonly" name="total" id="total" class="inner-input"><br>
+                </div>    
+
+                <button type="submit" id="book-now_btn">Book Now</button>
+
+            </form>
+        </div>
+    </div>
         <div id="details">
             <h2>Radisson Blu Hotel</h2>
-            <p>RATING</p>
+            <h5 class="font-cursive">RATING</h5>
             <p>5 Star</p>
-            <p>AMENITIES</p>
+            <h5 class="font-cursive">AMENITIES</h5>
             <ul>
                 <li>Room service</li>
                 <li>Restaurant</li>
@@ -48,7 +72,7 @@
                 <li>Pool</li>
             </ul>
             <div style=" display: block; padding-bottom: 5%;">
-                <h5>DESCRIPTION</h5>
+                <h5 class="font-cursive">DESCRIPTION</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur, maxime iusto unde corrupti facilis fugit odio architecto repellat! Neque temporibus tenetur autem odio veritatis repellendus ut veniam quae fugit, reprehenderit perspiciatis?</p>
             </div>
         </div>

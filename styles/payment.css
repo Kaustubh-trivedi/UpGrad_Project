@@ -21,9 +21,16 @@ div.container{
     height:100vh;
     width:100vw;
 }
+div.content{
+    display: flex;
+    flex-direction: column;
+}
 #logo{
     height:60px;
     width:60px;
+}
+#logo-div{
+    margin-left: 1%;
 }
 #login{
     margin-right:2%;
@@ -64,29 +71,33 @@ div#social{
 }
 #pvtltd{
     font-size: 10px;
-    transform: translate(0, 100%);
+    /* transform: translate(0, 100%); */
 }
 #hoteldetail{
     background-color: rgb(132,136,139);
     width: 50%;
     height: 20%;
     margin: 2% auto 2% auto;
+    padding:0;
 }
-#customerdetail{
-    margin: 2%;
-}
-#tarrif{
-    margin:2% ;
-    border: 1px solid black;
-    padding: 1% 2% 1% 2%;
-    border-radius: 5px;
-}
-#paynow-link{
-    display: block; 
-    padding-bottom: 5%;
-   
-}
+
 .normal-link{
     text-decoration: none;
     color:black;
+}
+#hotel-info{
+    padding: 3% 3% !important;
+}
+#lower-box{
+    display: flex;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-right:2%;
+    margin-left: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rosybrown;
+}
+.font-cursive{
+    font-family: cursive !important;
 }

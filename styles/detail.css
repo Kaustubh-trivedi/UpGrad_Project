@@ -22,6 +22,9 @@ div.container{
     height:60px;
     width:60px;
 }
+#logo-div{
+    margin-left:1%;
+}
 body{
     background-color: #e0e0e0;
     margin: 0px;
@@ -48,9 +51,15 @@ header{
     margin-right:2%;
 }
 div.content{
-    margin-top:5%; 
-    width:100%;
-    height:100%;
+    display:flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+#box{
+    display:flex; 
+    border:1px solid black; 
+    max-height: 400px; 
+    margin:2%;
 }
 img.hotel{
     margin: 2% 4% 0% 4%;
@@ -81,5 +90,55 @@ div#social{
 }
 #pvtltd{
     font-size: 10px;
-    transform: translate(0, 100%);
+    /* transform: translate(0, 100%); */
+}
+
+/* Hotel ims content */
+#hotel-img{
+    flex-grow: 3;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+img.hotel{
+    max-height: 350px; 
+    transform: translate(0,-3.5%);
+}
+
+/* form content */
+#booking-form{
+    text-align: center;
+    margin-right: 2%;
+    flex-grow: 1;
+    padding: 1%;
+    text-align: center;
+    border-left: 1px solid black;
+    max-height: 400px;
+   
+}
+.outer-div {
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0%;
+    /* align-items: flex-start; */
+}
+.inner-input {
+    width: 60%;
+}
+.form-label{
+    display: inline-block;
+     width:50%; 
+     text-align: left;
+    /* margin-right:10%; */
+    
+    
+}
+#book-now_btn{
+    padding:2%;
+}
+
+/* cursive */
+.font-cursive{
+    font-family: cursive !important;
 }
