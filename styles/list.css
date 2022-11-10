@@ -52,8 +52,8 @@ header{
     top:0;
 }
 li.list-views{
-    display:inline-block;
-    margin:1% 1% 0 1%;
+    /* display:inline-block;
+    margin:1% 1% 0 1%; */
 }
 .view-link{
     text-decoration: none;
@@ -100,4 +100,17 @@ div.htl{
 div.hotel-detail{
     margin-left: 4%;
     width:100%;
+}
+.modal-backdrop{
+    position: relative;
+}
+.modal-form{
+    display:inline-block; 
+    width:160px
+}
+.htl:hover{
+    background-color: rosybrown;
+}
+.tab-content>.active {
+    display: flex;
 }

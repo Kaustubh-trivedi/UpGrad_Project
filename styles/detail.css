@@ -120,7 +120,7 @@ img.hotel{
    
     display: flex;
     justify-content: space-around;
-    padding: 5% 0%;
+    padding: 3% 0%;
     /* align-items: flex-start; */
 }
 .inner-input {
@@ -136,9 +136,17 @@ img.hotel{
 }
 #book-now_btn{
     padding:2%;
+    margin-top: 2%;
 }
 
 /* cursive */
 .font-cursive{
     font-family: cursive !important;
+}
+.modal-backdrop{
+    position: relative;
+}
+.modal-form{
+    display:inline-block; 
+    width:160px
 }

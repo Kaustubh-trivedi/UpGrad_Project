@@ -101,3 +101,10 @@ div#social{
 .font-cursive{
     font-family: cursive !important;
 }
+.modal-backdrop{
+    position: relative;
+}
+.modal-form{
+    display:inline-block; 
+    width:160px
+}

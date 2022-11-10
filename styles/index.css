@@ -2,7 +2,12 @@ img{
     height:100px;
     width:150px;
 }
-
+body{
+    margin: 0;
+}
+.container-fluid{
+    margin:0;
+}
 .socialmedia{
     height:20px;
     width:22px;
@@ -136,4 +141,11 @@ img.cityimg{
     display: flex;
     justify-content: center;
     margin-bottom:5%;
+}
+.modal-backdrop{
+    position: relative;
+}
+.modal-form{
+    display:inline-block; 
+    width:160px
 }
